@@ -72,6 +72,7 @@ set -ex
     check_fileServerType_param $fileServerType
 
     #Updating php sources
+    wait_for_apt
    sudo add-apt-repository ppa:ondrej/php -y
    sudo apt-get update
 
