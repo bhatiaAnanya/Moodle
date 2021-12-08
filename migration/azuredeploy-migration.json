@@ -48,6 +48,7 @@
             "type": "string"
         },
         "sshPublicKey": {
+            "defaultValue": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBJ2rIfg60fj6Yo4jzJuxuHoAFOTUrlbwm17r7emPaO3guyLm2RX2RufWdUbWBxgctCP/ogRJJIfFD90JrJuoVscWkQYDO+E9MPttAGfNph4hbM17a4LTC5sIxPHnLv8Z/UuT48LMTG0K22KXstx6T9DDLK77s0ECvccqBofbMlgD9o0MFo8djoO2rzUWqltxH0sUfK9Qeb+5/4QT1f0Dq44iv7HzPB2NJ8Oe8OxUjvkH97+GkJvf/opxZJGv6oFLO2tVwrZB8YmFShvgXCXbNK2DKDFZf/mBcGEJySvq3sHwDh6GVUyh/UC9x8WCVgO8idKXQH6+dDJCldJFaMtG5yICjoW4rJ0OfAjgXe22/c9OlaKdIfV5ONGfME3B55xnzjrYJNyLkC/3yYeFBdq/QkSJrANfFhUP3RWIu2FyM5glg0o40iFAV5dKUCQjaljZMbN4NZxXQm7fnkLw7zuyhel7M/DdU4r2pnTIh8Ih3PCHNRpHKOcJq+aGgUaPLYq0= generated-by-azure",
             "metadata": {
                 "description": "ssh public key"
             },
@@ -194,7 +195,7 @@
         }
     },
     "variables": {
-        "_artifactsLocation": "https://raw.githubusercontent.com/venu-sivanadham/Moodle/master/",
+        "_artifactsLocation": "https://raw.githubusercontent.com/bhatiaAnanya/Moodle/master/",
         "_artifactsLocationSasToken": "",
         "unsupportedLocations": [
             "eastus2euap",
