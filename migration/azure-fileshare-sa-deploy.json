@@ -89,6 +89,6 @@
             "fileServerDiskSize": "[parameters('fileServerDiskSize')]"
         },
         "resourceprefix": "[substring(uniqueString(resourceGroup().id, 'mainTemplate'), 3, 6)]",
-        "storageName": "[concat(variables('moodleCommon').storageAccountName,if(equals(variables('moodleCommon').fileServerType, 'azurefiles'), 'af', 'naf'))]"
+        "storageName": "[concat(variables('moodleCommon').storageAccountName,if(equals(variables('moodleCommon').fileServerType, 'azurefiles'), '', 'naf'))]"
     }
 }
