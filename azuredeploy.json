@@ -1214,7 +1214,7 @@
             "sshPublicKey": "[parameters('sshPublicKey')]",
             "sshUsername": "[parameters('sshUsername')]",
             "sslEnforcement": "[parameters('sslEnforcement')]",
-            "storageAccountName": "absveng5caf",
+            "storageAccountName": "absveng5c",
             "storageAccountType": "[parameters('storageAccountType')]",
             "subnetAppGw": "[concat('appgw-subnet-',variables('resourceprefix'))]",
             "subnetAppGwPrefix": "[concat(variables('octets')[0], '.', variables('octets')[1], '.', string(add(int(variables('octets')[2]),6)))]",
@@ -1273,7 +1273,7 @@
             }
         ],
         "octets": "[split(parameters('vNetAddressSpace'), '.')]",
-        "resourceprefix": "run9dec1605",
+        "resourceprefix": "run9dec1620",
         "subnetSanPrefix": "[concat( variables('octets')[0], '.', variables('octets')[1], '.', string(add(int(variables('octets')[2]),2)))]",
         "subnetWebRange": "[concat( variables('octets')[0], '.', variables('octets')[1], '.', string(add(int(variables('octets')[2]),0)), '.0/24')]"
     }
