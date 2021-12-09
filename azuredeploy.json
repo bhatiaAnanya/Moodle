@@ -1214,7 +1214,7 @@
             "sshPublicKey": "[parameters('sshPublicKey')]",
             "sshUsername": "[parameters('sshUsername')]",
             "sslEnforcement": "[parameters('sslEnforcement')]",
-            "storageAccountName": "absveng5c",
+            "storageAccountName": "ananyamoodleteststorage",
             "storageAccountType": "[parameters('storageAccountType')]",
             "subnetAppGw": "[concat('appgw-subnet-',variables('resourceprefix'))]",
             "subnetAppGwPrefix": "[concat(variables('octets')[0], '.', variables('octets')[1], '.', string(add(int(variables('octets')[2]),6)))]",

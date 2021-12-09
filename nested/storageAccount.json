@@ -80,7 +80,7 @@
         "documentation1": "This sub-template creates a storage account.  It expects certain values in the 'common' datastructure.",
         "documentation2": " storageAccountName - name of storage account",
         "documentation3": " storageAccountType - type of storage account",
-        "storageName": "[concat(parameters('moodleCommon').storageAccountName,if(equals(parameters('moodleCommon').fileServerType, 'azurefiles'), 'af', 'naf'))]",
+        "storageName": "[concat(parameters('moodleCommon').storageAccountName,if(equals(parameters('moodleCommon').fileServerType, 'azurefiles'), '', 'naf'))]",
         "storageAccountId": "[resourceId('Microsoft.Storage/storageAccounts', variables('storageName'))]"
     },
     "outputs": {
